@@ -1,0 +1,25 @@
+<ContractRoot>
+	<TcpCont>
+		<TransactionID>1000000083201311020128223824</TransactionID>
+		<ActionCode>0</ActionCode>
+		<BusCode>BUS37020</BusCode>
+		<ServiceCode>SVC37063</ServiceCode>
+		<ServiceContractVer>SVC3706320121101</ServiceContractVer>
+		<ServiceLevel>1</ServiceLevel>
+		<SrcOrgID>100000</SrcOrgID>
+		<SrcSysID>1000000083</SrcSysID>
+		<SrcSysSign>integral10000000830803</SrcSysSign>
+		<DstOrgID>100000</DstOrgID>
+		<DstSysID>1000000047</DstSysID>
+		<ReqTime>20131102102255</ReqTime>
+	</TcpCont>
+	<SvcCont>
+		<MAC>5dbe5960f0ff5f2c773707b34fbb796e</MAC>
+		<PARAMETERS>
+			<PACKAGENAME>20元流量包</PACKAGENAME>
+			<CUSTNAME>测试</CUSTNAME>
+			<MOBILEPHONE>13319290888</MOBILEPHONE>
+			<OFFERSPECID>3000</OFFERSPECID>
+		</PARAMETERS>
+	</SvcCont>
+</ContractRoot>

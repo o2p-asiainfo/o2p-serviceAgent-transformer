@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <ns1:RequestHeader xmlns:ns1="http://soa.ailk.telenor.com/schema/soa/common">
+            <AppKey>8000000009</AppKey>
+            <TransactionID>8000000009201510111110048800</TransactionID>
+            <ReqTime>2015-10-16 10:15:15.171</ReqTime>
+            <Version>1</Version>
+            <TenantId>21</TenantId>
+            <AcceptChannelType>0</AcceptChannelType>
+            <OperatorCode>999999026</OperatorCode>
+            <AcceptStaffId>21SO101</AcceptStaffId>
+        </ns1:RequestHeader>
+    </soapenv:Header>
+    <soapenv:Body>
+        <SoReceiveReq xmlns="http://soa.ailk.telenor.com/schema/crm_ott">
+            <OrderCont xmlns="">
+                <ServiceOrders>
+                    <ServiceOrder>
+                        <OrderInfo>
+                            <SoNbr>111110048800</SoNbr>
+                            <SoType>0</SoType>
+                            <AcceptDate>2015-10-16 10:12:25.0</AcceptDate>
+                            <CountryCode>DK</CountryCode>
+                            <Locality>2101</Locality>
+                            <MainServerId>WIMP</MainServerId>
+                            <TradeTypeCode>1</TradeTypeCode>
+                        </OrderInfo>
+                        <CustInfo>
+                            <CustId>21210911729151</CustId>
+                            <State>4</State>
+                            <CustTypeId>1</CustTypeId>
+                            <Country>DK</Country>
+                            <City>2101</City>
+                        </CustInfo>
+                        <UserSubInfos>
+                            <UserSubInfo>
+                                <UserId>42101110075021</UserId>
+                                <UserType>0</UserType>
+                                <Phone>71104898</Phone>
+                                <ParaInfos>
+                                    <ParaInfo>
+                                        <ParaName>CUSTOMER_USER_ID</ParaName>
+                                        <ParaValue>21210911729151_43101110075022</ParaValue>
+                                    </ParaInfo>
+                                </ParaInfos>
+                            </UserSubInfo>
+                        </UserSubInfos>
+                        <ServiceInfo>
+                            <ProdInfo>
+                                <MainProdInfos>
+                                    <MainProdInfo>
+                                        <ProdId>2102574</ProdId>
+                                        <ProdName>WIMP</ProdName>
+                                        <UserId>42101110075021</UserId>
+                                        <ActType>M</ActType>
+                                        <ProdPrptyInfo>
+                                            <PrptyName>subscriber_id</PrptyName>
+                                            <PrptyValue>+33612345678</PrptyValue>
+                                            <ActType>M</ActType>
+                                            <OldPrptyName/>
+                                            <OldPrptyValue/>
+                                        </ProdPrptyInfo>
+                                        <ProdPrptyInfo>
+                                            <PrptyName>offer_code</PrptyName>
+                                            <PrptyValue>1201</PrptyValue>
+                                            <ActType>M</ActType>
+                                            <OldPrptyName/>
+                                            <OldPrptyValue/>
+                                        </ProdPrptyInfo>
+                                        <ProdPrptyInfo>
+                                            <PrptyName>start_date</PrptyName>
+                                            <PrptyValue>2099-12-31</PrptyValue>
+                                            <ActType>M</ActType>
+                                            <OldPrptyName/>
+                                            <OldPrptyValue/>
+                                        </ProdPrptyInfo>
+                                        <ProdPrptyInfo>
+                                            <PrptyName>end_date</PrptyName>
+                                            <PrptyValue>2099-12-31+23:59:59</PrptyValue>
+                                            <ActType>M</ActType>
+                                            <OldPrptyName/>
+                                            <OldPrptyValue/>
+                                        </ProdPrptyInfo>
+                                    </MainProdInfo>
+                                </MainProdInfos>
+                            </ProdInfo>
+                        </ServiceInfo>
+                    </ServiceOrder>
+                </ServiceOrders>
+            </OrderCont>
+        </SoReceiveReq>
+    </soapenv:Body>
+</soapenv:Envelope>

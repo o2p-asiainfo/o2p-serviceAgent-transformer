@@ -1,0 +1,170 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bbs="http://BBS.EPayment" xmlns:bbs1="http://schemas.datacontract.org/2004/07/BBS.EPayment.ServiceLibrary">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <bbs:Register>
+         <!--Optional:-->
+         <bbs:merchantId>12001398</bbs:merchantId>
+         <!--Optional:-->
+         <bbs:token>At6_q*J4</bbs:token>
+         <!--Optional:-->
+         <bbs:request>
+            <!--Optional:-->
+            <bbs1:AvtaleGiro>
+               <!--Optional:-->
+               <bbs1:AccountNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:AmountLimit xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:CompanyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Kid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </bbs1:AvtaleGiro>
+            <!--Optional:-->
+            <bbs1:CardInfo>
+               <!--Optional:-->
+               <bbs1:ExpiryDate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Pan xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:SecurityCode xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </bbs1:CardInfo>
+            <!--Optional:-->
+            <bbs1:Customer>
+               <!--Optional:-->
+               <bbs1:Address1 xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Address2 xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:CompanyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Country xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:CustomerNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Email xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:FirstName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:LastName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:NotificationMode xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:PhoneNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Postcode xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:SocialSecurityNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Town xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </bbs1:Customer>
+            <!--Optional:-->
+            <bbs1:Description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <!--Optional:-->
+            <bbs1:DnBNorDirectPayment>
+               <!--Optional:-->
+               <bbs1:KID xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Message xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:ToAccount xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </bbs1:DnBNorDirectPayment>
+            <!--Optional:-->
+            <bbs1:Environment>
+               <!--Optional:-->
+               <bbs1:Language xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:OS xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:WebServicePlatform xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </bbs1:Environment>
+            <!--Optional:-->
+            <bbs1:Order>
+               <!--Optional:-->
+               <bbs1:Amount>3000</bbs1:Amount>
+               <!--Optional:-->
+               <bbs1:CurrencyCode>NOK</bbs1:CurrencyCode>
+               <!--Optional:-->
+               <bbs1:DeliveryDate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Force3DSecure xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:OrderNumber>FJ654321</bbs1:OrderNumber>
+               <!--Optional:-->
+               <bbs1:UpdateStoredPaymentInfo xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </bbs1:Order>
+            <!--Optional:-->
+            <bbs1:Recurring>
+               <!--Optional:-->
+               <bbs1:ExpiryDate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Frequency xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:PanHash xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Type xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </bbs1:Recurring>
+            <!--Optional:-->
+            <bbs1:ServiceType>B</bbs1:ServiceType>
+            <!--Optional:-->
+            <bbs1:Terminal>
+               <!--Optional:-->
+               <bbs1:AutoAuth xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:AutoSale xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Design xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:FeeList xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Language xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:Layout xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:OrderDescription xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:PaymentMethodActionList>
+                  <!--Zero or more repetitions:-->
+                  <bbs1:PaymentMethodAction>
+                     <!--Optional:-->
+                     <bbs1:Action xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                     <!--Optional:-->
+                     <bbs1:Bin xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                     <!--Optional:-->
+                     <bbs1:CardOrigin xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                     <!--Optional:-->
+                     <bbs1:CardType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                     <!--Optional:-->
+                     <bbs1:Fee xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                     <!--Optional:-->
+                     <bbs1:Name xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                     <!--Optional:-->
+                     <bbs1:PaymentMethod xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                  </bbs1:PaymentMethodAction>
+               </bbs1:PaymentMethodActionList>
+               <!--Optional:-->
+               <bbs1:PaymentMethodList xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:RedirectUrl>http://www.minibmx.dk</bbs1:RedirectUrl>
+               <!--Optional:-->
+               <bbs1:SinglePage xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <bbs1:TemplateData>
+                  <!--Zero or more repetitions:-->
+                  <bbs1:KeyValuePair>
+                     <!--Optional:-->
+                     <bbs1:Key xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                     <!--Optional:-->
+                     <bbs1:Value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                  </bbs1:KeyValuePair>
+               </bbs1:TemplateData>
+               <!--Optional:-->
+               <bbs1:Vat xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </bbs1:Terminal>
+            <!--Optional:-->
+            <bbs1:TransactionId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <!--Optional:-->
+            <bbs1:TransactionReconRef xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+         </bbs:request>
+      </bbs:Register>
+   </soapenv:Body>
+</soapenv:Envelope>

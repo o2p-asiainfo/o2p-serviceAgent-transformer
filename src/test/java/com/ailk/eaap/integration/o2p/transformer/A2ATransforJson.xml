@@ -1,0 +1,36 @@
+{
+    "ServiceInfo": {
+        "ProdInfo": {
+            "MainProdInfos": {
+                "MainProdInfo": {
+                    "ProdId": "2102574",
+                    "ProdName": "WIMP",
+                    "UserId": "42101110075021",
+                    "ActType": "M",
+                    "ProdPrptyInfo": [
+                        {
+                            "PrptyName": "subscriber_id",
+                            "PrptyValue": "+33612345678",
+                            "ActType": "M"
+                        },
+                        {
+                            "PrptyName": "offer_code",
+                            "PrptyValue": "1201",
+                            "ActType": "M"
+                        },
+                        {
+                            "PrptyName": "start_date",
+                            "PrptyValue": "2099-12-31",
+                            "ActType": "M"
+                        },
+                        {
+                            "PrptyName": "end_date",
+                            "PrptyValue": "2099-12-31+23:59:59",
+                            "ActType": "M"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

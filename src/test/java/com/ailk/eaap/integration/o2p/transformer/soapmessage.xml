@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:urn="urn:Columbine">
+	<soapenv:Header>
+		<RequestHeader>
+			<AppKey>8000060001</AppKey>
+			<TransactionID>8000060001201406201931232141</TransactionID>
+			<Sign>123</Sign>
+		</RequestHeader>
+	</soapenv:Header>
+	<soapenv:Body>
+		<urn:newBitStreamAcces soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+			<arg0 xsi:type="xsd:string">
+				XXXXXX
+			</arg0>
+		</urn:newBitStreamAcces>
+	</soapenv:Body>
+</soapenv:Envelope>

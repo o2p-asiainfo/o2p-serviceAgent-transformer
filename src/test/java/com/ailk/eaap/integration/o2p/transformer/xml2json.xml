@@ -1,0 +1,16 @@
+<AddonOffers>
+ <AddonOffer>
+  <AddonOfferName>?</AddonOfferName>
+  <AddonOfferInstanceId>?</AddonOfferInstanceId>
+  <AddonOfferCode>VOICEMAIL</AddonOfferCode>
+  <Description>End user’s personal voicemail</Description>
+  <Effectivedate>2014-12-31</Effectivedate>
+ </AddonOffer>
+ <AddonOffer>
+  <AddonOfferName>?</AddonOfferName>
+  <AddonOfferInstanceId>?</AddonOfferInstanceId>
+  <AddonOfferCode>LTE</AddonOfferCode>
+  <Description>Enables LTE Functionality</Description>
+  <Effectivedate>2014-12-31</Effectivedate>
+ </AddonOffer>
+</AddonOffers>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceInfo>
+    <ProdInfo>
+        <MainProdInfos>
+            <MainProdInfo>
+                <ProdId>2102574</ProdId>
+                <ProdName>WIMP</ProdName>
+                <UserId>42101110075021</UserId>
+                <ActType>M</ActType>
+                <ProdPrptyInfo>
+                    <PrptyName>subscriber_id</PrptyName>
+                    <PrptyValue>+33612345678</PrptyValue>
+                    <ActType>M</ActType>
+                    <OldPrptyName/>
+                    <OldPrptyValue/>
+                </ProdPrptyInfo>
+                <ProdPrptyInfo>
+                    <PrptyName>offer_code</PrptyName>
+                    <PrptyValue>1201</PrptyValue>
+                    <ActType>M</ActType>
+                    <OldPrptyName/>
+                    <OldPrptyValue/>
+                </ProdPrptyInfo>
+                <ProdPrptyInfo>
+                    <PrptyName>start_date</PrptyName>
+                    <PrptyValue>2099-12-31</PrptyValue>
+                    <ActType>M</ActType>
+                    <OldPrptyName/>
+                    <OldPrptyValue/>
+                </ProdPrptyInfo>
+                <ProdPrptyInfo>
+                    <PrptyName>end_date</PrptyName>
+                    <PrptyValue>2099-12-31+23:59:59</PrptyValue>
+                    <ActType>M</ActType>
+                    <OldPrptyName/>
+                    <OldPrptyValue/>
+                </ProdPrptyInfo>
+            </MainProdInfo>
+        </MainProdInfos>
+    </ProdInfo>
+</ServiceInfo>

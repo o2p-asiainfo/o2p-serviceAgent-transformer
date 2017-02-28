@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<function-configuration>  
+    <!-- 系统函数默认配置 -->  
+    <bean class="org.wltea.expression.function.SystemFunctions">  
+        <function name="CONTAINS" method="contains">  
+            <parameter-type>java.lang.String</parameter-type>  
+            <parameter-type>java.lang.String</parameter-type>  
+        </function>  
+        <function name="STARTSWITH" method="startsWith">  
+            <parameter-type>java.lang.String</parameter-type>  
+            <parameter-type>java.lang.String</parameter-type>  
+        </function>  
+        <function name="ENDSWITH" method="endsWith">  
+            <parameter-type>java.lang.String</parameter-type>  
+            <parameter-type>java.lang.String</parameter-type>  
+        </function>  
+        <function name="CALCDATE" method="calcDate">  
+            <parameter-type>java.util.Date</parameter-type>  
+            <parameter-type>int</parameter-type>  
+            <parameter-type>int</parameter-type>  
+            <parameter-type>int</parameter-type>  
+            <parameter-type>int</parameter-type>  
+            <parameter-type>int</parameter-type>  
+            <parameter-type>int</parameter-type>  
+        </function>  
+        <function name="SYSDATE" method="sysDate" />  
+        <function name="DAYEQUALS" method="dayEquals">  
+            <parameter-type>java.util.Date</parameter-type>  
+            <parameter-type>java.util.Date</parameter-type>  
+        </function>  
+    </bean>  
+      
+	<bean class="com.ailk.eaap.integration.o2p.transformer.function.MyString">  
+        <function name="SUBSTRING" method="subString">
+            <parameter-type>java.lang.String</parameter-type>  
+            <parameter-type>int</parameter-type>  
+            <parameter-type>int</parameter-type>
+        </function>  
+    </bean> 
+    <bean class="com.ailk.eaap.integration.o2p.transformer.function.MyString">  
+        <function name="concat" method="concat">
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+        </function>  
+    </bean> 
+    
+    <bean class="com.ailk.eaap.o2p.common.util.SelfFunc">  
+        <function name="dateFormat" method="dateFormat">
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+            <parameter-type>java.lang.String</parameter-type>
+        </function>  
+    </bean>
+    
+    <bean class="com.ailk.eaap.o2p.common.util.SelfFunc">  
+        <function name="sysdate" method="sysdate">
+            <parameter-type>java.lang.String</parameter-type>
+        </function>  
+    </bean>
+</function-configuration>  

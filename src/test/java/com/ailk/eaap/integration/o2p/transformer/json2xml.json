@@ -1,0 +1,35 @@
+{
+
+  "addOnOffers": [
+
+    {
+
+      "addonOfferName": "LTE",
+
+      "addonOfferInstanceId": "123",
+
+      "addonOfferCode": "LTE",
+
+      "description": "Fast Internet",
+
+      "effectivedate": "Sep 29, 2014 4:51:47 PM"
+
+    },
+
+    {
+
+      "addonOfferName": "VOICEMAIL",
+
+      "addonOfferInstanceId": "876",
+
+      "addonOfferCode": "VOICEMAIL",
+
+      "description": "Personal voice mail",
+
+      "effectivedate": "Sep 29, 2014 4:51:47 PM"
+
+    }
+
+  ]
+
+}
